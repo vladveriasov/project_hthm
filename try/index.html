@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>FlashNews!</title>
+  </head>
+
+  <body class="page light-theme">
+    <header class="page-header">
+      <div class="container">
+        <button class="theme-button" type="button">Изменить тему</button>
+      </div>
+    </header>
+
+    <main class="inner-news">
+      <article class="container">
+        <h1 class="inner-heading">🔥 Шок! Скандал! Сенсация!</h1>
+        <div class="news-full">
+          <img src="обезяна1.jpg" alt="joke">
+          <div class="news-stats">
+            <button class="heart" type="button"><span class="far dntadded fa-heart" >♡</span><span class="likes-number"></i></span></button>
+            <time datetime="2019-12-22">22 декабря 2019</time>
+          </div>
+        </div>
+      </article>
+    </main>
+    <section class="comment-feed container">
+      <h2>Комментарии</h2>
+      <ol class="comment-list">
+        <li class="user-comment">Да ну, бред какой-то…</li>
+      </ol>
+      <form method="post" class="comment-form">
+        <div class="comment-inner">
+          <label class="comment-label" for="comment-input">ваш комментарий</label>
+          <input type="text" class="comment-field" placeholder="Комментарий" required id="comment-input">
+        </div>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+    </section>
+
+    <script src="comment.js"></script>
+    <script src="likes.js"></script>
+    <script src="theme.js"></script>
+  </body>
+</html>
